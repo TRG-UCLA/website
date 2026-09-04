@@ -35,6 +35,7 @@
 
 <main id="main">
 
+<div class="hero-band">
 <div class="wrap hero">
   <h1>Natural hazards engineering<span class="qual">at regional scales</span></h1>
   <p class="lede">We study how earthquakes, hurricanes, and wildfires affect the built environment across entire regions — from characterizing the hazard, to building inventories of what stands in its path, to simulating damage and turning those estimates into decisions about risk.</p>
@@ -45,9 +46,9 @@
       <title id="terrain-title">A single continuous ground line carrying a seismic trace at left, wind streamlines at centre, and fire contours at right.</title>
 
       <!-- subsurface strata -->
-      <path d="M0 250 Q150 244 300 250 T600 250 T900 250 T1200 248 L1200 300 L0 300 Z" fill="#f2f2ee"/>
-      <path d="M0 268 Q200 262 400 268 T800 268 T1200 266" stroke="#e6e6e1" stroke-width="1" fill="none"/>
-      <path d="M0 284 Q250 279 500 284 T1000 284 T1200 283" stroke="#ecece7" stroke-width="1" fill="none"/>
+      <path d="M0 250 Q150 244 300 250 T600 250 T900 250 T1200 248 L1200 300 L0 300 Z" fill="rgba(255,255,255,0.45)"/>
+      <path d="M0 268 Q200 262 400 268 T800 268 T1200 266" stroke="rgba(255,255,255,0.7)" stroke-width="1" fill="none"/>
+      <path d="M0 284 Q250 279 500 284 T1000 284 T1200 283" stroke="rgba(255,255,255,0.55)" stroke-width="1" fill="none"/>
 
       <!-- ground line, continuous across all three -->
       <path d="M0 250 Q150 244 300 250 T600 250 T900 250 T1200 248" stroke="#9a9f9b" stroke-width="1.25" fill="none"/>
@@ -104,10 +105,11 @@
     </svg>
   </div>
 </div>
+</div>
 
 <div class="wrap">
 
-<section>
+<section style="border-top:0;">
   <h2 class="section-head">Hazards we study</h2>
 
   <div class="hazard earth">
@@ -159,21 +161,21 @@
 <section>
   <h2 class="section-head">Recent news</h2>
 
-  <div class="repo">
+  <div class="repo newsline">
     <div class="meta">June 2026</div>
-    <h3>Bechtel Fellows Seminar Series</h3>
+    <h3><a href="https://www.bechtel.com/services/engineering/fellows/">Bechtel Fellows Seminar Series</a></h3>
     <p>Invited seminar: Computational science in service of natural hazards engineering.</p>
   </div>
 
-  <div class="repo">
+  <div class="repo newsline fire">
     <div class="meta">2026</div>
-    <h3>NHERI DesignSafe Dataset Award</h3>
-    <p>Awarded for the StEER dataset documenting the 2025 Los Angeles wildfires.</p>
+    <h3><a href="https://www.designsafe-ci.org/community/dataset-awards/">NHERI DesignSafe Dataset Award</a></h3>
+    <p>Awarded for the IRIS-Wildfire dataset documenting the 2025 Los Angeles wildfires.</p>
   </div>
 
-  <div class="repo">
+  <div class="repo newsline fire">
     <div class="meta">February 2026</div>
-    <h3>Santa Clara County FireSafe Council</h3>
+    <h3><a href="https://sccfiresafe.org/">Santa Clara County FireSafe Council</a></h3>
     <p>Presented UCLA wildfire risk research to the council.</p>
   </div>
 </section>

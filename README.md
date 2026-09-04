@@ -14,6 +14,7 @@ code.html       Software and datasets
 people.html     PI and current group
 contact.html    Contact and prospective students
 alumni.html     Doctoral and postdoctoral alumni
+grants.html     Current and completed grants
 assets/style.css
 CNAME           Custom domain for GitHub Pages
 ```
