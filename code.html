@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code — Taciroglu Research Group</title>
+<meta name="description" content="Open-source simulation and inventory tools from the Taciroglu Research Group at UCLA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <a class="wordmark" href="index.html">Taciroglu Research Group
+      <span>Natural hazards engineering at regional scales</span></a>
+    <nav aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li><li><a href="code.html" aria-current="page">Code</a></li><li><a href="people.html">People</a></li><li><a href="contact.html">Contact</a></li><li><a class="ext" href="https://github.com/TRG-UCLA">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          GitHub</a></li></ul></nav>
+  </div>
+</header>
+<div class="strata" aria-hidden="true"><i></i><i></i><i></i></div>
+
+<main id="main">
+<div class="wrap">
+
+<section style="border-top:0;">
+  <h2 class="big">Software and data</h2>
+  <p>We develop our tools in the open. Most of our software is released alongside the papers it supports, so that results can be reproduced and methods reused.</p>
+</section>
+
+<section>
+  <h2 class="section-head">Regional building inventories</h2>
+  <div class="rail">
+    <div class="repo" style="padding-top:0;">
+      <h3><a href="https://github.com/NHERI-SimCenter/BRAILS">BRAILS</a></h3>
+      <p>Building Recognition using AI at Large Scale. An open-source framework for automatically generating regional building inventories from satellite and street-level imagery &mdash; the step that usually limits how far a risk assessment can scale.</p>
+      <div class="meta">Developed within the NHERI SimCenter &middot; github.com/NHERI-SimCenter/BRAILS</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-head">Earthquake simulation</h2>
+  <div class="rail earth">
+    <div class="repo" style="padding-top:0;">
+      <h3><a href="https://github.com/TRG-NHM/hercules">Hercules</a></h3>
+      <p>An octree-based finite element earthquake simulator for large-scale wave propagation problems, originally developed by the Quake Group at Carnegie Mellon and extended by our group.</p>
+      <div class="meta">C &middot; github.com/TRG-NHM/hercules</div>
+    </div>
+    <div class="repo">
+      <h3><a href="https://github.com/TRG-NHM/Hercules-Toolbox">Hercules Toolbox</a></h3>
+      <p>Python post-processing for Hercules: binary-to-HDF5 conversion, wave propagation animations, and visualization of station time histories and 3D velocity profiles.</p>
+      <div class="meta">Python &middot; github.com/TRG-NHM/Hercules-Toolbox</div>
+    </div>
+    <div class="repo">
+      <h3><a href="https://github.com/TRG-NHM/DRM-and-PML">DRM and PML for Abaqus</a></h3>
+      <p>Implementation of the Domain Reduction Method and Perfectly Matched Layers for Abaqus, for soil-structure interaction and wave propagation analysis.</p>
+      <div class="meta">C, Python &middot; github.com/TRG-NHM/DRM-and-PML</div>
+    </div>
+    <div class="repo">
+      <h3><a href="https://github.com/TRG-NHM/HerculesDoc">Hercules documentation</a></h3>
+      <p>Build, installation, and usage documentation for Hercules.</p>
+      <div class="meta">github.com/TRG-NHM/HerculesDoc</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-head">Structural health monitoring</h2>
+  <div class="rail">
+    <div class="repo" style="padding-top:0;">
+      <h3><a href="https://github.com/TRG-SHM/SHM-Zero-Shot-Transfer-Learning-I">Zero-shot transfer learning for SHM</a></h3>
+      <p>Code and resources accompanying our work on zero-shot transfer learning for structural health monitoring.</p>
+      <div class="meta">Jupyter Notebook &middot; MIT &middot; <a href="https://doi.org/10.1016/j.ymssp.2023.110404">doi.org/10.1016/j.ymssp.2023.110404</a></div>
+    </div>
+    <div class="repo">
+      <h3><a href="https://github.com/TRG-SHM/Machine-To-Structure-TL">Machine-to-structure transfer learning</a></h3>
+      <p>Transferring damage detection knowledge across rotating machines and framed structures.</p>
+      <div class="meta">Jupyter Notebook &middot; MIT &middot; github.com/TRG-SHM/Machine-To-Structure-TL</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-head">Wildfire and applied AI</h2>
+  <div class="rail fire">
+    <div class="repo" style="padding-top:0;">
+      <h3><a href="https://github.com/TRG-AI4Good/FUELVISION">FUELVISION</a></h3>
+      <p>A multimodal data fusion and multi-model ensemble algorithm for wildfire fuels mapping.</p>
+      <div class="meta">github.com/TRG-AI4Good/FUELVISION</div>
+    </div>
+    <div class="repo">
+      <h3><a href="https://github.com/TRG-AI4Good/Lahaina_Generalizability">Lahaina generalizability</a></h3>
+      <p>Computer vision tools for early post-disaster assessment, with an emphasis on generalizing across events.</p>
+      <div class="meta">Jupyter Notebook &middot; github.com/TRG-AI4Good/Lahaina_Generalizability</div>
+    </div>
+    <div class="repo">
+      <h3><a href="https://github.com/TRG-AI4Good/de-identifier">De-identifier</a></h3>
+      <p>PII de-identification for CSV data using two named-entity recognizers, spaCy and Flair.</p>
+      <div class="meta">Python &middot; MIT &middot; github.com/TRG-AI4Good/de-identifier</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-head">Datasets</h2>
+  <div class="repo" style="padding-top:0;">
+    <h3>StEER: 2025 Los Angeles Wildfires</h3>
+    <p>Recipient of the 2026 NHERI DesignSafe Dataset Award.</p>
+    <div class="meta">Hosted on DesignSafe</div>
+  </div>
+  <div class="repo">
+    <h3>Regional building damage survey, 2023 Kahramanmara&#351; earthquakes</h3>
+    <p>Survey data documenting building damage across the affected region.</p>
+    <div class="meta">ASCE Open, 2(1), 04024009</div>
+  </div>
+  <div class="repo">
+    <h3>Centrifuge testing of embedded structures</h3>
+    <p>Circular and rectangular embedded structures under seismic loading.</p>
+    <div class="meta">Earthquake Spectra, 35(3), 1485&ndash;1505</div>
+  </div>
+</section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div>© 2026 Taciroglu Research Group · UCLA Civil and Environmental Engineering</div>
+    <ul>
+      <li><a href="https://github.com/TRG-UCLA">GitHub</a></li>
+      <li><a href="https://scholar.google.com/citations?user=66y9fGcAAAAJ&amp;hl=en">Google Scholar</a></li>
+      <li><a href="https://orcid.org/0000-0001-9618-1210">ORCID</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
