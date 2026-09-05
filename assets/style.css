@@ -590,8 +590,8 @@ a.more svg.ic { width: 18px; height: 18px; vertical-align: -4px; margin-right: 0
 
 /* site mark */
 .wordmark { display: flex; align-items: center; gap: 0.9rem; }
-.sitemark { height: 40px; width: auto; flex: none; }
-@media (max-width: 640px) { .sitemark { height: 32px; } }
+.sitemark { width: 34px; height: 34px; flex: none; }
+@media (max-width: 640px) { .sitemark { width: 28px; height: 28px; } }
 .wm-text { display: block; }
 
 /* stacked section links */
