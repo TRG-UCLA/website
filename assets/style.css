@@ -587,3 +587,9 @@ footer {
 /* page emblems */
 .emblem { width: 54px; height: 54px; display: block; margin: 0 0 1.25rem; }
 a.more svg.ic { width: 18px; height: 18px; vertical-align: -4px; margin-right: 0.45rem; }
+
+/* site mark */
+.wordmark { display: flex; align-items: center; gap: 0.9rem; }
+.sitemark { height: 40px; width: auto; flex: none; }
+@media (max-width: 640px) { .sitemark { height: 32px; } }
+.wm-text { display: block; }
