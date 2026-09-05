@@ -593,3 +593,7 @@ a.more svg.ic { width: 18px; height: 18px; vertical-align: -4px; margin-right: 0
 .sitemark { height: 40px; width: auto; flex: none; }
 @media (max-width: 640px) { .sitemark { height: 32px; } }
 .wm-text { display: block; }
+
+/* stacked section links */
+.morerow { margin-top: 0.85rem; }
+.morerow a.more { display: inline-flex; align-items: center; }
