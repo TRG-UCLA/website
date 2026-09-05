@@ -558,3 +558,17 @@ footer {
 /* ---------- page-top graphics ---------- */
 .pagegraph { margin: 2.25rem 0 0.5rem; }
 .pagegraph svg { width: 100%; height: auto; display: block; }
+
+/* alumni profile links */
+.alumni .plinks {
+  display: block;
+  margin-top: 0.25rem;
+  font-family: "Archivo", sans-serif;
+  font-size: 0.75rem;
+}
+.alumni .plinks a {
+  color: var(--wind);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+.alumni .plinks .sep { color: var(--faint); margin: 0 0.5rem; }
