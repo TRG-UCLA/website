@@ -30,6 +30,36 @@
 <section style="border-top:0;">
   <h2 class="big">Software and data</h2>
   <p>We develop our tools in the open. Most of our software is released alongside the papers it supports, so that results can be reproduced and methods reused.</p>
+
+  <div class="pagegraph">
+  <svg viewBox="0 0 1200 210" role="img" aria-labelledby="cg-t">
+    <title id="cg-t">An octree mesh refining toward an earthquake source, with wavefronts radiating outward to a recording station.</title>
+    <!-- coarse-to-fine octree mesh -->
+    <g stroke="#d4d6d1" stroke-width="1" fill="none">
+      <path d="M600 15 L600 195 M900 15 L900 195 M1195 15 L1195 195"/>
+      <path d="M600 15 L1195 15 M600 105 L1195 105 M600 195 L1195 195"/>
+    </g>
+    <g stroke="#c2c5c0" stroke-width="1" fill="none">
+      <path d="M300 15 L300 195 M450 15 L450 195 M600 60 L300 60 M600 150 L300 150 M300 105 L600 105 M300 15 L600 15 M300 195 L600 195"/>
+    </g>
+    <g stroke="#b3b7b1" stroke-width="1" fill="none">
+      <path d="M150 15 L150 195 M225 15 L225 195 M75 15 L75 195 M5 15 L300 15 M5 60 L300 60 M5 105 L300 105 M5 150 L300 150 M5 195 L300 195 M5 82 L150 82 M5 127 L150 127 M5 38 L150 38 M5 172 L150 172 M38 15 L38 195 M112 15 L112 195 M5 15 L5 195"/>
+    </g>
+    <!-- source + wavefronts -->
+    <circle cx="80" cy="128" r="4" fill="#b26b12"/>
+    <g stroke="#b26b12" fill="none">
+      <circle cx="80" cy="128" r="30" stroke-width="1.6" opacity="0.75"/>
+      <circle cx="80" cy="128" r="62" stroke-width="1.4" opacity="0.5"/>
+      <circle cx="80" cy="128" r="98" stroke-width="1.2" opacity="0.32"/>
+      <circle cx="80" cy="128" r="138" stroke-width="1" opacity="0.18"/>
+    </g>
+    <!-- surface + station recording -->
+    <path d="M5 15 L1195 15" stroke="#9a9f9b" stroke-width="1.4" fill="none"/>
+    <path d="M960 15 L960 8 L966 8" stroke="#14806a" stroke-width="1.6" fill="none"/>
+    <circle cx="960" cy="15" r="3.2" fill="#14806a"/>
+    <path d="M700 42 L760 42 L772 30 L784 58 L796 36 L808 50 L820 42 L1150 42" stroke="#c6472a" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+  </svg>
+  </div>
 </section>
 
 <section>

@@ -554,3 +554,7 @@ footer {
 .avatar.has-photo.wind::after    { background: var(--wind); }
 .avatar.has-photo.fire::after    { background: var(--fire); }
 .avatar.has-photo.neutral::after { background: #7a7f7b; }
+
+/* ---------- page-top graphics ---------- */
+.pagegraph { margin: 2.25rem 0 0.5rem; }
+.pagegraph svg { width: 100%; height: auto; display: block; }

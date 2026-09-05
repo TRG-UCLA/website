@@ -31,6 +31,38 @@
   <h2 class="big">Our approach</h2>
   <p>We treat regional risk as an end-to-end problem. The same methodological chain applies whether the driving hazard is seismic, wind, or fire &mdash; which is what allows methods developed for one to transfer to the others.</p>
 
+  <div class="pagegraph">
+  <svg viewBox="0 0 1200 210" role="img" aria-labelledby="rg-t">
+    <title id="rg-t">Fragility curves: probability of damage rising with hazard intensity, one curve per hazard.</title>
+    <!-- axes -->
+    <path d="M70 20 L70 175 L1140 175" stroke="#9a9f9b" stroke-width="1.25" fill="none"/>
+    <g stroke="#c9cbc6" stroke-width="1">
+      <path d="M70 100 L1140 100" stroke-dasharray="3 6"/>
+      <path d="M337 175 L337 180"/><path d="M604 175 L604 180"/><path d="M871 175 L871 180"/>
+      <path d="M70 100 L64 100"/><path d="M70 30 L64 30"/>
+    </g>
+    <!-- fragility curves -->
+    <path d="M70 174 C 220 172 260 40 470 32 L1140 30" stroke="#14806a" stroke-width="1.9" fill="none"/>
+    <path d="M70 174 C 330 172 380 52 640 40 L1140 36" stroke="#b26b12" stroke-width="1.9" fill="none"/>
+    <path d="M70 175 C 460 174 520 70 830 52 L1140 46" stroke="#c6472a" stroke-width="1.9" fill="none"/>
+    <!-- median markers where curves cross P=0.5 -->
+    <circle cx="255" cy="100" r="3.2" fill="#14806a"/>
+    <circle cx="375" cy="100" r="3.2" fill="#b26b12"/>
+    <circle cx="540" cy="100" r="3.2" fill="#c6472a"/>
+    <g stroke-width="1" stroke-dasharray="2 5">
+      <path d="M255 100 L255 175" stroke="#14806a" opacity="0.45" fill="none"/>
+      <path d="M375 100 L375 175" stroke="#b26b12" opacity="0.45" fill="none"/>
+      <path d="M540 100 L540 175" stroke="#c6472a" opacity="0.45" fill="none"/>
+    </g>
+    <!-- axis labels -->
+    <g font-family="Archivo, sans-serif" font-size="12" fill="#8a8f8b">
+      <text x="1140" y="195" text-anchor="end">hazard intensity</text>
+      <text x="80" y="40">probability of damage</text>
+      <text x="60" y="104" text-anchor="end">0.5</text>
+    </g>
+  </svg>
+  </div>
+
   <ol class="chain">
     <li><div><h3>Hazard characterization</h3>
       <p>Physics-based simulation of earthquake ground motions at regional scale, coupled fire&ndash;atmosphere modeling of wildfire spread, and characterization of hurricane wind and surge fields &mdash; each with explicit treatment of the uncertainty that propagates downstream.</p></div></li>
