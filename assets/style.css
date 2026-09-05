@@ -583,3 +583,7 @@ footer {
   .chain li { grid-template-columns: 2.75rem 1fr; }
   .stepglyph { display: none; }
 }
+
+/* page emblems */
+.emblem { width: 54px; height: 54px; display: block; margin: 0 0 1.25rem; }
+a.more svg.ic { width: 18px; height: 18px; vertical-align: -4px; margin-right: 0.45rem; }
