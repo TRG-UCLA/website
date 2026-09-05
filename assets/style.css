@@ -610,3 +610,13 @@ a.more svg.ic { width: 18px; height: 18px; vertical-align: -4px; margin-right: 0
 }
 .section-head-lg svg { width: 26px; height: 26px; flex: none; }
 .section-head-lg svg * { stroke: #7d827e; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+
+/* member role line */
+.member .role {
+  margin: 0.05rem 0 0;
+  font-family: "Archivo", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--faint);
+  letter-spacing: 0.02em;
+}
