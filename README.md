@@ -15,7 +15,6 @@ people.html     PI and current group
 contact.html    Contact and prospective students
 alumni.html     Doctoral and postdoctoral alumni
 grants.html     Current and completed grants
-family-tree.html  Academic family tree poster
 family-tree.html  Academic lineage poster
 assets/style.css
 CNAME           Custom domain for GitHub Pages
