@@ -540,3 +540,17 @@ footer {
 /* illustrated portraits keep their own color */
 .portrait.illustrated img { filter: none; }
 .portrait.illustrated::after { content: none; }
+
+/* roster photos: same grayscale + hazard tint as the PI treatment */
+.avatar img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  filter: grayscale(100%) contrast(1.08);
+}
+.avatar.has-photo::after {
+  content: ""; position: absolute; inset: 0;
+  mix-blend-mode: color; pointer-events: none;
+}
+.avatar.has-photo.earth::after   { background: var(--earth); }
+.avatar.has-photo.wind::after    { background: var(--wind); }
+.avatar.has-photo.fire::after    { background: var(--fire); }
+.avatar.has-photo.neutral::after { background: #7a7f7b; }
