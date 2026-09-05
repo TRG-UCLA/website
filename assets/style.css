@@ -536,3 +536,7 @@ footer {
   color: var(--faint);
   margin-bottom: -0.5rem;
 }
+
+/* illustrated portraits keep their own color */
+.portrait.illustrated img { filter: none; }
+.portrait.illustrated::after { content: none; }
