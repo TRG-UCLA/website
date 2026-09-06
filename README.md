@@ -15,6 +15,8 @@ people.html     PI and current group
 contact.html    Contact and prospective students
 alumni.html     Doctoral and postdoctoral alumni
 grants.html     Current and completed grants
+presentations.html  Talks by group members
+talks/          PDF slide decks for the presentations page
 family-tree.html  Academic lineage poster
 assets/style.css
 CNAME           Custom domain for GitHub Pages
@@ -34,6 +36,11 @@ right group. The avatar class controls the colour: `earth`, `wind`, `fire`, or
 **Add a publication** — `research.html`, in the `<ul class="pubs">` list. Wrap
 the group's author name in `<b>`. Add
 `<a class="codemark" href="...">Code</a>` if there's a repo.
+
+**Add a presentation** — `presentations.html`. Copy a `<div class="repo">` block
+into the right year section (create the section if the year is new). Put slide
+PDFs in `talks/` and link them from the block's `.meta` line, e.g.
+`<a href="talks/2026-bechtel.pdf">Slides (PDF)</a> &middot; <a href="https://youtu.be/...">Video</a>`.
 
 **Add a repository** — `code.html`. Copy a `<div class="repo">` block into the
 matching section.
