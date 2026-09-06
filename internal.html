@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Internal &mdash; Taciroglu Research Group</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main id="main">
+<div class="wrap" style="padding-top:3rem;">
+<div id="gate" style="max-width:26rem;">
+  <h2 class="big">Internal</h2>
+  <p style="color:var(--muted);">Enter the group passphrase.</p>
+  <input id="pw" type="password" autocomplete="current-password" style="font-size:1rem; padding:0.6rem 0.8rem; border:1px solid var(--rule); border-radius:2px; width:100%; background:#fff; font-family:Archivo,sans-serif;">
+  <button id="go" style="margin-top:0.9rem; font-family:Archivo,sans-serif; font-size:0.9375rem; font-weight:500; padding:0.55rem 1.4rem; background:var(--ink); color:var(--paper); border:0; border-radius:2px; cursor:pointer;">Unlock</button>
+  <p id="err" style="color:var(--fire); display:none; font-size:0.9rem;">That passphrase didn&rsquo;t work.</p>
+</div>
+<div id="content"></div>
+</div>
+</main>
+<footer>
+  <div class="wrap foot-inner">
+    <div>&copy; 2026 Taciroglu Research Group &middot; internal</div>
+  </div>
+</footer>
+<script>
+const P = {"salt": "GBNPJvhyqOjSzcg4kpgbeg==", "nonce": "XeJB8JFQruHUQHDZ", "ct": "lNk1nD9hHyVMJUQQ9vBzTXxbHBHV4gGyhJ3wDe/Yg3eh3StEdb1u/mUfyU8zVnAbLmkAx92/GT2mT+bd7NP3tm/UZATlzyq1JLxdYk1au0FRnuHHPPPdpUzyr4PGq1LxpLhskpJLDrLLYyMBkl7NVrDXWHWYiAU4RvbWg66g2xBOtIJf2OuKwMgPoIXkbr49nZ0NJtezNCf/NngHiizdApYS/7jMasMH9/BioiLDD7QARy2YsJDw/AfUJr7joBm11VmL0Es+PAOdF+vWLucQFrgnbHTBH0PONbYJlV4e2t3Tfw5O+6aCLqx0o2DKlsiZofkROlVxqWoRVInJo6UDJFrNSdeJdgoxcpeurN2Ls2vR68h+3xFIzAx+H3x7DESHKU902YpNyyfnAOEL2vQnnl64+x2f04NhlGzoLzC8HU8iogYh33DzDvv1Ap4l/FqOkUG3G5wJRp3SORyyTu2UD5Pg9puwxAzsZkNE6fG6VKJYKXVPplE1rywG16QeXEaE4QyDz4nk656FKZJtzrGB3fUyfKZaElW7Yf11aK4qUHk/R3Q81XEebhqk3qh4bXOnGr7/1sXwJutT5BOqH+FnQZRk8bX5aTGICth1Q4Y+cHgJUtnnxhvBzn4bzPvqskwydACQtvrDVmq57C9jTjfo6q5fmUYlej9RyW5I052/Hv0zlodv3arWMCBiQEN3ceEbEWJVVdVRdLS7HVxQDh9eaiUO8KS1Etoy7IjsuJSXhb3ZeOaD7Dy8fazoxjZ1KOJ4dP5m92WRwm3eYcMr8jeJzZzzP/XSIDHeQ72q/i83+IaAyoffrO0Z0D6apCmYPjEzpGgFPnrRvUzSOrEcirMU0wjgdFZtzAO2Pa7M0g8GymZzIFkQC3JUXc/KqHFBruTvXRjwAQHdu9WP0rwP9u+JsDUE0OEEoHsmDpkoezLHEUxtd7Ri1bcZK7DYkelvUD8M5hwgds8Uxw6XT9rNnv2KqD35zg4DJlvDeFKX44dOcPWV4w+fMrf7QsEObfIQPMWboTxwYidN/5NGuuJX/Ph1WoSO/dabbNeqzsPu5qOKCehqp3sNNiKV0s2l3b89hZLFnYL6ZndhEjfJdXr4kYE19G8bwPtnmRjWO2c6ziBxxahaWbTVJYlH3g5YOvkM+oEA2XV7mFmujFXFV3eIVugY+ebzSqILkgd+dh3LSQBANgICYvb2dWeH6OudlDc2UwUTjmy2o9pUgros81v6j5+NlWZ1L6iEj1gtFI+sE8q802JOgOLX+w6NhRpNBDPNL9ndb+Ux4yuNHibv5wm/pMjlY84AQlTdcfQpkeuL1bB9FRLj2IojwZ9sMkUxXMQBuRsVrVFtq2k0gceQjFFvZfSOm/H7avyi2CcwrsjGV9rmOcDWa/K8ezTAkNQSKQtIQqqeehfjUedtXnzkIzpfkZaZpzrJV/pL8BOJ04ItVCKmiWVKzbPl0fbCckBj/laeySygcSQSJQR2rlUvnpFwBEkUz9W/fr7253xbriiMWQ=="};
+const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+async function unlock() {
+  const pw = document.getElementById("pw").value;
+  try {
+    const km = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
+    const key = await crypto.subtle.deriveKey({name:"PBKDF2", salt:b64(P.salt), iterations:250000, hash:"SHA-256"},
+      km, {name:"AES-GCM", length:256}, false, ["decrypt"]);
+    const pt = await crypto.subtle.decrypt({name:"AES-GCM", iv:b64(P.nonce)}, key, b64(P.ct));
+    document.getElementById("content").innerHTML = new TextDecoder().decode(pt);
+    document.getElementById("gate").style.display = "none";
+    sessionStorage.setItem("trg-pw", pw);
+  } catch(e) {
+    document.getElementById("err").style.display = "block";
+  }
+}
+document.getElementById("go").addEventListener("click", unlock);
+document.getElementById("pw").addEventListener("keydown", e => { if (e.key === "Enter") unlock(); });
+const saved = sessionStorage.getItem("trg-pw");
+if (saved) { document.getElementById("pw").value = saved; unlock(); }
+</script>
+</body>
+</html>
