@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """Regenerate citations/TacirogluResearch.bib and .ris from OpenAlex (by ORCID)."""
-import json, re, time, urllib.request
+import json, re, time, urllib.request, urllib.parse
 
 ORCID = "0000-0001-9618-1210"
-BASE = ("https://api.openalex.org/works?filter=author.orcid:" + ORCID +
-        ",type:article|book-chapter|book&per-page=200&cursor={cur}"
-        "&mailto=etacir@ucla.edu")
 
 def fetch_all():
     works, cur = [], "*"
     while cur:
-        with urllib.request.urlopen(BASE.format(cur=cur), timeout=60) as r:
+        q = urllib.parse.urlencode({
+            "filter": f"author.orcid:{ORCID},type:article|book-chapter|book",
+            "per-page": "200", "cursor": cur, "mailto": "etacir@ucla.edu"})
+        req = urllib.request.Request("https://api.openalex.org/works?" + q,
+              headers={"User-Agent": "TRG-bibliography/1.0 (mailto:etacir@ucla.edu)"})
+        with urllib.request.urlopen(req, timeout=60) as r:
             d = json.load(r)
         works += d["results"]
         cur = d["meta"].get("next_cursor")
@@ -90,4 +92,14 @@ def main():
     print(f"wrote {len(keep)} entries")
 
 if __name__ == "__main__":
-    main()
+    import traceback, sys, os
+    os.makedirs("citations", exist_ok=True)
+    try:
+        main()
+        if os.path.exists("citations/build-error.txt"):
+            os.remove("citations/build-error.txt")
+    except Exception:
+        with open("citations/build-error.txt", "w") as f:
+            f.write(traceback.format_exc())
+        print("FAILED - traceback written to citations/build-error.txt")
+        sys.exit(0)   # let the workflow commit the diagnostic
