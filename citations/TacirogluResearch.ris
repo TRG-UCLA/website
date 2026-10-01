@@ -1,4 +1,17 @@
 TY  - JOUR
+AU  - Riyaaz Uddien Shaik
+AU  - Ray Huffaker
+AU  - Adam C. Watts
+AU  - Mohamad Alipour
+AU  - Ertuǧrul Taciroğlu
+TI  - A Nonlinear Dynamics and Echo State Neural Network Framework for Wildfire Burned Area Forecasting
+JO  - IEEE Access
+PY  - 2026
+SP  - 1
+EP  - 1
+DO  - 10.1109/access.2026.3735927
+ER  - 
+TY  - JOUR
 AU  - Chu-Han Yen
 AU  - Wenyang Zhang
 AU  - Ertuǧrul Taciroğlu
@@ -40,10 +53,10 @@ TY  - JOUR
 AU  - Sara Mostofi
 AU  - Hasan Basri Başağa
 AU  - Fatih Yesevi Okur
-AU  - Zafer Yilmaz
+AU  - Zafer Yılmaz
 AU  - Ertuǧrul Taciroğlu
 AU  - Tuğrul Sezdirmez
-AU  - Ahmet Can Altunişik
+AU  - Ahmet Can Altunışık
 TI  - A stacked ensemble model for rapid seismic damage assessment of masonry buildings using data from the February 2023, Kahramanmaraş, Türkiye earthquakes
 JO  - Engineering Failure Analysis
 PY  - 2026
@@ -54,9 +67,9 @@ DO  - 10.1016/j.engfailanal.2026.110754
 ER  - 
 TY  - JOUR
 AU  - Gamze Doğan
-AU  - Mustafa Y. Cetinkaya
-AU  - M. Hesam Soleimani-Babakamali
-AU  - Zafer Yilmaz
+AU  - Mustafa Yavuz ÇETİNKAYA
+AU  - Mohammad Hesam Soleimani‐Babakamali
+AU  - Zafer Yılmaz
 AU  - Ertuǧrul Taciroğlu
 TI  - Automated generation of model and seismic fragility inventories of school buildings in Türkiye
 JO  - Journal of Building Engineering
@@ -94,6 +107,25 @@ EP  - 189
 DO  - 10.3390/fire9050189
 ER  - 
 TY  - JOUR
+AU  - Furkan Şen
+AU  - Fezayil Sunca
+AU  - Yunus Emrahan Akbulut
+AU  - Mert Hacıemiroğlu
+AU  - Sara Mostofi
+AU  - Esengül Çavdar
+AU  - Murat Günaydın
+AU  - Cenk Alhan
+AU  - Gökhan Özdemir
+AU  - Ertuǧrul Taciroğlu
+AU  - Ahmet Can Altunışık
+TI  - Effects of model configurations on the post-fire performance of lead-rubber bearings
+JO  - Journal of Structural Engineering & Applied Mechanics
+PY  - 2026
+VL  - 9
+IS  - 3
+DO  - 10.31462/jseam.2026.676
+ER  - 
+TY  - JOUR
 AU  - Ali Yeşilyurt
 AU  - Ercan Şerif Kaya
 AU  - Patrick Chang
@@ -115,7 +147,7 @@ AU  - Yushan Li
 AU  - Arjun Nair
 AU  - Tate Hom
 AU  - Ertuǧrul Taciroğlu
-AU  - Narasimhan, Sriram
+AU  - Sriram Narasimhan
 AU  - Bozhou Zhuang
 TI  - From Code to Comprehension: Structuring Pre-Hazard Risk Applications for Reusability and Scientific Transparency Case study: Interactive Landslide Map
 JO  - Zenodo (CERN European Organization for Nuclear Research)
@@ -129,12 +161,25 @@ AU  - Yushan Li
 AU  - Arjun Nair
 AU  - Tate Hom
 AU  - Ertuǧrul Taciroğlu
-AU  - Narasimhan, Sriram
+AU  - Sriram Narasimhan
 AU  - Bozhou Zhuang
 TI  - From Code to Comprehension: Structuring Pre-Hazard Risk Applications for Reusability and Scientific Transparency Case study: Interactive Landslide Map
 JO  - Zenodo (CERN European Organization for Nuclear Research)
 PY  - 2026
 DO  - 10.5281/zenodo.19488039
+ER  - 
+TY  - JOUR
+AU  - Debasish Jana
+AU  - Melis Fidansoy
+AU  - Sven Malama
+AU  - Sriram Narasimhan
+AU  - Ertuǧrul Taciroğlu
+TI  - Generative modeling and reinforcement learning for road network resilience optimization under rainfall-induced landslides
+JO  - Reliability Engineering & System Safety
+PY  - 2026
+SP  - 113578
+EP  - 113578
+DO  - 10.1016/j.ress.2026.113578
 ER  - 
 TY  - JOUR
 AU  - Chu-Han Yen
@@ -146,7 +191,7 @@ ER  -
 TY  - JOUR
 AU  - Nii Otu Tackie-Otoo
 AU  - Mohammad Askari
-AU  - Patrick Hadinata
+AU  - Patrick Nicholas Hadinata
 AU  - Rachel A. Davidson
 AU  - Ertuǧrul Taciroğlu
 AU  - Gina Hardy
@@ -158,11 +203,38 @@ IS  - 7
 DO  - 10.1007/s11069-026-08059-z
 ER  - 
 TY  - JOUR
+AU  - Ibrahim Engin Taze
+AU  - Paul Jacob
+AU  - Leixin Ma
+AU  - Adarsh Elango
+AU  - Yashar Azam
+AU  - Ertuǧrul Taciroğlu
+TI  - Mooring system analysis for a 15 MW semi-submersible floating offshore wind turbine in deep-sea deployment: Case study for Morro Bay Wind Energy Area, California
+JO  - Marine Structures
+PY  - 2026
+VL  - 112
+SP  - 104242
+EP  - 104242
+DO  - 10.1016/j.marstruc.2026.104242
+ER  - 
+TY  - JOUR
+AU  - Ercan Şerif Kaya
+AU  - Ali Yeşilyurt
+AU  - Ertuǧrul Taciroğlu
+TI  - Multi-mechanism fragility surface assessment of buried steel pipelines subjected to landslide-induced permanent ground deformations
+JO  - Soil Dynamics and Earthquake Engineering
+PY  - 2026
+VL  - 212
+SP  - 110710
+EP  - 110710
+DO  - 10.1016/j.soildyn.2026.110710
+ER  - 
+TY  - JOUR
 AU  - Chu-Han Yen
 AU  - Arben Pitarka
 AU  - Houjun Tang
 AU  - Rie Nakata
-AU  - David McCallen
+AU  - David B. McCallen
 AU  - Ertuǧrul Taciroğlu
 TI  - Regional Earthquake Ground Motion Simulations for Southern California With EQSIM: Insights From the 2008 Chino Hills, 2024 Highland Park, and 2021 Carson Earthquakes
 JO  - Earthquake Spectra
@@ -174,7 +246,7 @@ ER  -
 TY  - JOUR
 AU  - Chu-Han Yen
 AU  - Ertuǧrul Taciroğlu
-AU  - David McCallen
+AU  - David B. McCallen
 AU  - Arben Pitarka
 AU  - Houjun Tang
 AU  - Rie Nakata
@@ -187,11 +259,11 @@ AU  - Simon Laflamme
 AU  - Erik Blasch
 AU  - Filippo Ubertini
 AU  - Zheng Liu
-AU  - John Wertz
+AU  - John N. Wertz
 AU  - Christine Knott
-AU  - Matthew Cherry
+AU  - Matthew R. Cherry
 AU  - Eric A. Lindgren
-AU  - Fu-Kuo Chang
+AU  - Fu‐Kuo Chang
 AU  - Amrita Kumar Kumar
 AU  - Jack Poole
 AU  - Keith Worden
@@ -204,11 +276,11 @@ AU  - Marco Martino Rosso
 AU  - Giuseppe Carlo Marano
 AU  - Yu Chen
 AU  - Erika Ardiles-Cruz
-AU  - Mohammad Hesam Soleimani-Babakamali
+AU  - Mohammad Hesam Soleimani‐Babakamali
 AU  - Onur Avci
-AU  - Daniel J. Inman
+AU  - Daniel John Inman
 AU  - Ertuǧrul Taciroğlu
-AU  - Jacob Dodson
+AU  - Jacob C. Dodson
 AU  - Genda Chen
 AU  - Wei Meng
 AU  - Chang Zhu
@@ -226,7 +298,7 @@ AU  - Jingyi Yuan
 AU  - Song Wen
 AU  - Ligong Han
 AU  - Dimitris Metaxas
-AU  - Eleonora M. Tronci
+AU  - Eleonora Maria Tronci
 AU  - Babak Moaveni
 AU  - Qian Chen
 AU  - Ming Shan Ng
@@ -269,10 +341,10 @@ AU  - Yuntian Wang
 AU  - Zafer Yılmaz
 AU  - Yuhang Li
 AU  - Edward Liu
-AU  - Eric Ahlberg
-AU  - Farid Ghahari
+AU  - Eric R. Ahlberg
+AU  - S. Farid Ghahari
 AU  - Ertuǧrul Taciroğlu
-AU  - Aydogan Ozcan
+AU  - Aydogan Özcan
 TI  - Structural vibration monitoring with diffractive optical processors
 JO  - Science Advances
 PY  - 2026
@@ -284,9 +356,9 @@ DO  - 10.1126/sciadv.aea1712
 ER  - 
 TY  - JOUR
 AU  - Viviana Vela
-AU  - Farid Ghahari
+AU  - S. Farid Ghahari
 AU  - Monica D. Kohler
-AU  - G. A. Prieto
+AU  - Germán Andres Prieto
 AU  - Ertuǧrul Taciroğlu
 TI  - Vertical‐Component Seismic Response and System Identification of a 52‐Story High‐Rise Building Using Earthquake Data
 JO  - Earthquake Spectra
@@ -301,7 +373,7 @@ AU  - Ahmet Can Altunışık
 AU  - Hasan Basri Başağa
 AU  - Fatih Yesevi Okur
 AU  - Zafer Yılmaz
-AU  - Patrick Hadinata
+AU  - Patrick Nicholas Hadinata
 AU  - Ertuǧrul Taciroğlu
 AU  - Banu Aslan
 AU  - Tuğrul Sezdirmez
@@ -333,7 +405,7 @@ TY  - JOUR
 AU  - Amir Ali Shahmansouri
 AU  - Abouzar Jafari
 AU  - Habib Akbarzadeh Bengar
-AU  - Ying Zhou
+AU  - Ying Chun Zhou
 AU  - Ertuǧrul Taciroğlu
 TI  - A scaling-based generalizable integrated ML-mechanics model for lateral response of self-centering walls
 JO  - Engineering Structures
@@ -369,12 +441,12 @@ AU  - Jinyan Zhao
 AU  - Justin Bonus
 AU  - Abiy F. Melaku
 AU  - Sina Naeimi
-AU  - Pedro Arduino
+AU  - Pedro W. Arduino
 AU  - Rachel A. Davidson
 AU  - Catherine Gorlé
 AU  - Sanjay Govindjee
 AU  - Ahsan Kareem
-AU  - Tracy Kijewski‐Correa
+AU  - Tracy L. Kijewski-Correa
 AU  - Laura N. Lowes
 AU  - Michael R. Motley
 AU  - Seymour M.J. Spence
@@ -389,7 +461,7 @@ DO  - 10.3389/fbuil.2025.1590479
 ER  - 
 TY  - JOUR
 AU  - Abdelrahman Taha
-AU  - Farid Ghahari
+AU  - S. Farid Ghahari
 AU  - Niloofar Malekghaini
 AU  - Hamed Ebrahimian
 AU  - Ertuǧrul Taciroğlu
@@ -433,7 +505,7 @@ TY  - JOUR
 AU  - Niloofar Malekghaini
 AU  - Abdelrahman Taha
 AU  - Hamed Ebrahimian
-AU  - Matthew T. Bowers
+AU  - Matthew Bowers
 AU  - S. Farid Ghahari
 AU  - Ertuǧrul Taciroğlu
 TI  - Computationally Efficient Time-Domain Finite-Element Model Updating for Joint Input-Parameter Estimation Based on a Simplified Response Sensitivity Calculation Approach
@@ -485,7 +557,7 @@ DO  - 10.1016/j.soildyn.2025.109306
 ER  - 
 TY  - JOUR
 AU  - Mehrdad Lotfollahi
-AU  - M.M. Alinia
+AU  - Mohammad Mahdi Alinia
 AU  - Ertuǧrul Taciroğlu
 TI  - Development of Improved Criteria for the Balanced Design of X-braced Moment Resisting Frame Systems
 JO  - Journal of Building Engineering
@@ -498,7 +570,7 @@ TY  - JOUR
 AU  - Wenyang Zhang
 AU  - Yufeng Dong
 AU  - Jorge G. F. Crempien
-AU  - Pedro Arduino
+AU  - Pedro W. Arduino
 AU  - Ertuǧrul Taciroğlu
 TI  - Effects of Soil Nonlinearity on Physics‐Based Ground Motion Simulation and Their Implications on 1D Site Response Analysis: An Application to Istanbul
 JO  - Earthquake Engineering & Structural Dynamics
@@ -549,7 +621,7 @@ ER  -
 TY  - JOUR
 AU  - Riyaaz Uddien Shaik
 AU  - Mohamad Alipour
-AU  - Eric Rowell
+AU  - Eric M. Rowell
 AU  - Bharathan Balaji
 AU  - Adam C. Watts
 AU  - Ertuǧrul Taciroğlu
@@ -605,7 +677,7 @@ TY  - JOUR
 AU  - Özer Can Devecioğlu
 AU  - Serkan Kıranyaz
 AU  - Amir Alhams
-AU  - S. Sassi
+AU  - Sadok Sassi
 AU  - Türker İnce
 AU  - Onur Avci
 AU  - Mohammad Hesam Soleimani‐Babakamali
@@ -653,7 +725,7 @@ TY  - JOUR
 AU  - Riyaaz Uddien Shaik
 AU  - Mohamad Alipour
 AU  - Kasra Shamsaei
-AU  - Eric Rowell
+AU  - Eric M. Rowell
 AU  - Bharathan Balaji
 AU  - Adam C. Watts
 AU  - Branko Kosović
@@ -671,7 +743,7 @@ TY  - JOUR
 AU  - Wenyang Zhang
 AU  - Yufeng Dong
 AU  - Jorge G. F. Crempien
-AU  - Pedro Arduino
+AU  - Pedro W. Arduino
 AU  - Aslı Kurtuluş
 AU  - Ertuǧrul Taciroğlu
 TI  - A comparison of ground motions predicted through one‐dimensional site response analyses and three‐dimensional wave propagation simulations at regional scales
@@ -686,7 +758,7 @@ ER  -
 TY  - JOUR
 AU  - S. Farid Ghahari
 AU  - Daniel Swensen
-AU  - Hamid Haddadi
+AU  - Hamid R. HADDADI
 AU  - Ertuǧrul Taciroğlu
 TI  - A hybrid model‐data method for seismic response reconstruction of instrumented buildings
 JO  - Earthquake Spectra
@@ -816,7 +888,7 @@ AU  - Abdullah İçen
 AU  - K. Albayrak
 AU  - M. Abdullah Sandıkkaya
 AU  - Ayşegül Askan
-AU  - Pedro Arduino
+AU  - Pedro W. Arduino
 AU  - Ertuǧrul Taciroğlu
 TI  - Local site effects at the selected stations affected by the February 6 2023 Türkiye Earthquake Sequences
 JO  - Soil Dynamics and Earthquake Engineering
@@ -857,7 +929,7 @@ DO  - 10.1016/j.asoc.2024.112519
 ER  - 
 TY  - JOUR
 AU  - Ahmad Dehghanpoor
-AU  - David Thambiratnam
+AU  - DAVID P. THAMBIRATNAM
 AU  - Wenyang Zhang
 AU  - Yufeng Dong
 AU  - Mohsen Kargar
@@ -878,7 +950,7 @@ AU  - Khachik Sargsyan
 AU  - Grace A. Parker
 AU  - Daniel Swensen
 AU  - Mehmet Çelebi
-AU  - Hamid Haddadi
+AU  - Hamid R. HADDADI
 AU  - Ertuǧrul Taciroğlu
 TI  - Performance‐based earthquake early warning for tall buildings
 JO  - Earthquake Spectra
@@ -935,9 +1007,9 @@ ER  -
 TY  - JOUR
 AU  - Riyaaz Uddien Shaik
 AU  - Mohamad Alipour
-AU  - Eric Rowell
+AU  - Eric M. Rowell
 AU  - Adam C. Watts
-AU  - Christopher W. Woodall
+AU  - Christopher William Woodall
 AU  - Ertuǧrul Taciroğlu
 TI  - Remote Sensing and Mapping of Fine Woody Carbon With Satellite Imagery and Super Learner
 JO  - IEEE Geoscience and Remote Sensing Letters
@@ -993,7 +1065,7 @@ ER  -
 TY  - JOUR
 AU  - Jack W. Baker
 AU  - Helen Crowley
-AU  - David J. Wald
+AU  - David Jay Wald
 AU  - Ellen M. Rathje
 AU  - Siu‐Kui Au
 AU  - Brendon Bradley
@@ -1002,14 +1074,14 @@ AU  - Ashly Cabas
 AU  - Serena Cattari
 AU  - Carlo Cauzzi
 AU  - Francesco Cavalieri
-AU  - Santina Contreras
-AU  - Rodrigo Costa
+AU  - Santina L. Contreras
+AU  - Rodrigo Tusi Costa
 AU  - Ronald T. Eguchi
 AU  - David Lallemant
 AU  - Dimitrios G. Lignos
 AU  - Brett W. Maurer
 AU  - Carlos Molina Hutt
-AU  - Anastasios Sextos
+AU  - Anastasios G. Sextos
 AU  - Emel Seyhan
 AU  - Vítor Silva
 AU  - Halȗk Sucuoğlu
@@ -1041,10 +1113,10 @@ DO  - 10.1016/j.ymssp.2024.111743
 ER  - 
 TY  - JOUR
 AU  - Mohamad Alipour
-AU  - Inga P. La Puma
+AU  - Inga Parker La Puma
 AU  - Joshua J. Picotte
 AU  - Kasra Shamsaei
-AU  - Eric Rowell
+AU  - Eric M. Rowell
 AU  - Adam C. Watts
 AU  - Branko Kosović
 AU  - Hamed Ebrahimian
@@ -1063,7 +1135,7 @@ AU  - Niloofar Malekghaini
 AU  - S. Farid Ghahari
 AU  - Hamed Ebrahimian
 AU  - Matthew R. Bowers
-AU  - Eric Ahlberg
+AU  - Eric R. Ahlberg
 AU  - Ertuǧrul Taciroğlu
 TI  - A Two-Step FE Model Updating Approach for System and Damage Identification of Prestressed Bridge Girders
 JO  - Buildings
@@ -1091,8 +1163,8 @@ DO  - 10.3390/app13158812
 ER  - 
 TY  - JOUR
 AU  - Wenyang Zhang
-AU  - F. Ghahari
-AU  - Pedro Arduino
+AU  - S. Farid Ghahari
+AU  - Pedro W. Arduino
 AU  - Ertuǧrul Taciroğlu
 TI  - A deep learning approach for rapid detection of soil liquefaction using time–frequency images
 JO  - Soil Dynamics and Earthquake Engineering
@@ -1119,7 +1191,7 @@ ER  -
 TY  - JOUR
 AU  - Pengyu Chen
 AU  - Nikolaos Lesgidis
-AU  - Anastasios Sextos
+AU  - Anastasios G. Sextos
 AU  - Ertuǧrul Taciroğlu
 TI  - A method for automated development of model and fragility inventories of nonductile reinforced concrete buildings
 JO  - Resilient Cities and Structures
@@ -1135,7 +1207,7 @@ AU  - Wenyang Zhang
 AU  - Jorge G. F. Crempien
 AU  - Aslı Kurtuluş
 AU  - Pengyu Chen
-AU  - Pedro Arduino
+AU  - Pedro W. Arduino
 AU  - Ertuǧrul Taciroğlu
 TI  - A suite of broadband physics‐based ground motion simulations for the Istanbul region
 JO  - Earthquake Engineering & Structural Dynamics
@@ -1187,7 +1259,7 @@ ER  -
 TY  - JOUR
 AU  - Kasra Shamsaei
 AU  - Timothy W. Juliano
-AU  - Matthew Roberts
+AU  - Matthew J. Roberts
 AU  - Hamed Ebrahimian
 AU  - Branko Kosović
 AU  - Neil P. Lareau
@@ -1306,7 +1378,7 @@ AU  - Wenyang Zhang
 AU  - Pengyu Chen
 AU  - Jorge G. F. Crempien
 AU  - Aslı Kurtuluş
-AU  - Pedro Arduino
+AU  - Pedro W. Arduino
 AU  - Ertuǧrul Taciroğlu
 TI  - Regional‐scale seismic fragility, loss, and resilience assessment using physics‐based simulated ground motions: An application to Istanbul
 JO  - Earthquake Engineering & Structural Dynamics
@@ -1426,12 +1498,12 @@ ER  -
 TY  - JOUR
 AU  - Negar Elhami Khorasani
 AU  - Hamed Ebrahimian
-AU  - Lawrence Buja
+AU  - Lawrence E. Buja
 AU  - Susan L. Cutter
 AU  - Branko Kosović
 AU  - Neil P. Lareau
 AU  - Brian J. Meacham
-AU  - Eric Rowell
+AU  - Eric M. Rowell
 AU  - Ertuǧrul Taciroğlu
 AU  - Matthew P. Thompson
 AU  - Adam C. Watts
@@ -1462,7 +1534,7 @@ DO  - 10.1177/14644207211067437
 ER  - 
 TY  - JOUR
 AU  - S. Farid Ghahari
-AU  - A. Baltay
+AU  - Annemarie S. Baltay
 AU  - Mehmet Çelebi
 AU  - Grace A. Parker
 AU  - J. J. McGuire
@@ -1496,7 +1568,7 @@ AU  - S. Farid Ghahari
 AU  - F. Abazarsa
 AU  - Hamed Ebrahimian
 AU  - Wenyang Zhang
-AU  - Pedro Arduino
+AU  - Pedro W. Arduino
 AU  - Ertuǧrul Taciroğlu
 TI  - Identification of Nonlinear Soil Properties from Downhole Array Data Using a Bayesian Model Updating Approach
 JO  - Sensors
@@ -1604,12 +1676,12 @@ IS  - 11
 DO  - 10.1002/stc.3078
 ER  - 
 TY  - JOUR
-AU  - L. Roy Xu
+AU  - Luoyu Roy Xu
 AU  - Md Shariful Islam
 AU  - Ricardo Martínez
 AU  - Mark Flores
 AU  - Kai Zhao
-AU  - Alp Karakoҫ
+AU  - Alp Karakoç
 AU  - Ertuǧrul Taciroğlu
 TI  - Simplified indentation mechanics to connect nanoindentation and low-energy impact of structural composites and polymers
 JO  - Journal of Reinforced Plastics and Composites
@@ -1629,7 +1701,7 @@ AU  - Behrokh Khoshnevis
 AU  - Donatello Cardone
 AU  - Dipanjan Basu
 AU  - Tao Wang
-AU  - Eltahry Elghandour
+AU  - Eltahry I. Elghandour
 AU  - Ehsan Noroozinejad Farsangi
 AU  - Reza Lotfi
 AU  - Mahdi Chavoshi
@@ -1697,7 +1769,7 @@ DO  - 10.1016/j.engstruct.2021.112278
 ER  - 
 TY  - JOUR
 AU  - Ahmad Dehghanpoor
-AU  - David Thambiratnam
+AU  - DAVID P. THAMBIRATNAM
 AU  - Wenyang Zhang
 AU  - Tommy H.T. Chan
 AU  - Ertuǧrul Taciroğlu
@@ -1748,7 +1820,7 @@ DO  - 10.1061/(asce)cp.1943-5487.0000968
 ER  - 
 TY  - JOUR
 AU  - Aidin Tamhidi
-AU  - Nicolas Kuehn
+AU  - Nicolas Martin Kuehn
 AU  - S. Farid Ghahari
 AU  - Arthur Rodgers
 AU  - Monica D. Kohler
@@ -1792,7 +1864,7 @@ TY  - JOUR
 AU  - Wenyang Zhang
 AU  - Keng‐Wit Lim
 AU  - S. Farid Ghahari
-AU  - Pedro Arduino
+AU  - Pedro W. Arduino
 AU  - Ertuǧrul Taciroğlu
 TI  - On the implementation and validation of a three‐dimensional pressure‐dependent bounding surface plasticity model for soil nonlinear wave propagation and soil‐structure interaction analyses
 JO  - International Journal for Numerical and Analytical Methods in Geomechanics
@@ -1804,8 +1876,8 @@ EP  - 1119
 DO  - 10.1002/nag.3194
 ER  - 
 TY  - JOUR
-AU  - L. Roy Xu
-AU  - Alp Karakoҫ
+AU  - Luoyu Roy Xu
+AU  - Alp Karakoç
 AU  - Mark Flores
 AU  - Haibin Ning
 AU  - Ertuǧrul Taciroğlu
@@ -1834,7 +1906,7 @@ AU  - Ying Zhou
 AU  - Teruhiko Yoda
 AU  - Ertuǧrul Taciroğlu
 AU  - Ivo Häring
-AU  - Anastasios Sextos
+AU  - Anastasios G. Sextos
 TI  - Present and future resilience research driven by science and technology
 JO  - International Journal of Sustainable Materials and Structural Systems
 PY  - 2021
@@ -1846,7 +1918,7 @@ DO  - 10.1504/ijsmss.2021.115783
 ER  - 
 TY  - JOUR
 AU  - Max Didier
-AU  - Anastasios Sextos
+AU  - Anastasios G. Sextos
 AU  - Ertuǧrul Taciroğlu
 AU  - Ivo Häring
 AU  - Teruhiko Yoda
@@ -1925,7 +1997,7 @@ AU  - Wenyang Zhang
 AU  - Doriam Restrepo
 AU  - Jorge G. F. Crempien
 AU  - Bülent Erkmen
-AU  - Ricardo Taborda
+AU  - Ricardo A. M. Taborda
 AU  - Aslı Kurtuluş
 AU  - Ertuǧrul Taciroğlu
 TI  - A computational workflow for rupture‐to‐structural‐response simulation and its application to Istanbul
@@ -1993,7 +2065,7 @@ ER  -
 TY  - JOUR
 AU  - Eyüphan Koç
 AU  - Barbaros Çetiner
-AU  - Adam Rose
+AU  - Adam Z. Rose
 AU  - Lúcio Soibelman
 AU  - Ertuǧrul Taciroğlu
 AU  - Dan Wei
@@ -2089,7 +2161,7 @@ DO  - 10.1002/eqe.3383
 ER  - 
 TY  - CHAP
 AU  - Michel Bruneau
-AU  - Gian-Paolo Cimellaro
+AU  - Gian Paolo Cimellaro
 AU  - Max Didier
 AU  - Marco Domaneschi
 AU  - Ivo Häring
@@ -2097,7 +2169,7 @@ AU  - Xilin Lü
 AU  - Aftab A. Mufti
 AU  - Mohammad Noori
 AU  - Jinping Ou
-AU  - Anastasios Sextos
+AU  - Anastasios G. Sextos
 AU  - Shamim A. Sheikh
 AU  - Ertuǧrul Taciroğlu
 AU  - Zhishen Wu
@@ -2118,7 +2190,7 @@ AU  - Frank McKenna
 AU  - Stella X. Yu
 AU  - Ertuǧrul Taciroğlu
 AU  - Ádám Zsarnóczay
-AU  - Wael Elhaddad
+AU  - Wael M. Elhaddad
 AU  - Barbaros Çetiner
 TI  - Machine learning-based regional scale intelligent modeling of building information for natural hazard risk management
 JO  - Automation in Construction
@@ -2129,7 +2201,7 @@ EP  - 103474
 DO  - 10.1016/j.autcon.2020.103474
 ER  - 
 TY  - JOUR
-AU  - Alp Karakoҫ
+AU  - Alp Karakoç
 AU  - Jouni Paltakari
 AU  - Ertuǧrul Taciroğlu
 TI  - On the computational homogenization of three-dimensional fibrous materials
@@ -2186,7 +2258,7 @@ ER  -
 TY  - JOUR
 AU  - Mehmet Çelebi
 AU  - S. Farid Ghahari
-AU  - Hamid Haddadi
+AU  - Hamid R. HADDADI
 AU  - Ertuǧrul Taciroğlu
 TI  - Response study of the tallest California building inferred from the Mw7.1 Ridgecrest, California earthquake of 5 July 2019 and ambient motions
 JO  - Earthquake Spectra
@@ -2267,10 +2339,10 @@ DO  - 10.1193/110717eqs232dp
 ER  - 
 TY  - JOUR
 AU  - Ahmad Dehghanpoor
-AU  - David Thambiratnam
+AU  - DAVID P. THAMBIRATNAM
 AU  - Tommy H.T. Chan
 AU  - Ertuǧrul Taciroğlu
-AU  - George Kouretzis
+AU  - George P. Kouretzis
 AU  - Zheng Li
 TI  - Coupled Horizontal and Vertical Component Analysis of Strong Ground Motions for Soil–Pile–Superstructure Systems: Application to a Bridge Pier with Soil–Structure Interaction
 JO  - Journal of Earthquake Engineering
@@ -2321,7 +2393,7 @@ ER  -
 TY  - JOUR
 AU  - Anoosh Shamsabadi
 AU  - A. Dasmeh
-AU  - Seyed Ali Nojoumi
+AU  - A. Nojoumi
 AU  - Kyle M. Rollins
 AU  - Ertuǧrul Taciroğlu
 TI  - Lateral Capacity Model for Backfills Reacting against Skew-Angled Abutments under Seismic Loading
@@ -2346,14 +2418,14 @@ DO  - 10.1007/s13349-019-00363-6
 ER  - 
 TY  - JOUR
 AU  - Ahmad Dehghanpoor
-AU  - David Thambiratnam
+AU  - DAVID P. THAMBIRATNAM
 AU  - Ertuǧrul Taciroğlu
 TI  - Significance of vertical ground motions on soil-pile-superstructure systems
 PY  - 2019
 ER  - 
 TY  - JOUR
 AU  - Ahmad Dehghanpoor
-AU  - David Thambiratnam
+AU  - DAVID P. THAMBIRATNAM
 AU  - Ertuǧrul Taciroğlu
 AU  - Tommy H.T. Chan
 TI  - Soil-pile-superstructure interaction effects in seismically isolated bridges under combined vertical and horizontal strong ground motions
@@ -2420,6 +2492,22 @@ EP  - 594
 DO  - 10.1007/s11440-018-0673-2
 ER  - 
 TY  - JOUR
+AU  - Yazhou Xie
+AU  - Qiu Zheng
+AU  - Chuang‐Sheng Walter Yang
+AU  - Wenyang Zhang
+AU  - Reginald DesRoches
+AU  - Jamie Ellen Padgett
+AU  - Ertuǧrul Taciroğlu
+TI  - Probabilistic models of abutment backfills for regional seismic assessment of highway bridges in California
+JO  - Engineering Structures
+PY  - 2018
+VL  - 180
+SP  - 452
+EP  - 467
+DO  - 10.1016/j.engstruct.2018.11.058
+ER  - 
+TY  - JOUR
 AU  - Elnaz Seylabi
 AU  - Chanseok Jeong
 AU  - Shideh Dashti
@@ -2445,7 +2533,7 @@ PY  - 2018
 ER  - 
 TY  - JOUR
 AU  - Mehrdad Lotfollahi
-AU  - M.M. Alinia
+AU  - Mohammad Mahdi Alinia
 AU  - Ertuǧrul Taciroğlu
 TI  - 15.12: On imperfection‐sensitivity evaluation of BMRF systems: Buckling and post‐buckling responses
 JO  - ce/papers
@@ -2591,7 +2679,7 @@ DO  - 10.1016/j.engstruct.2017.07.018
 ER  - 
 TY  - JOUR
 AU  - Xiaowo Wang
-AU  - Arun J. Prakash
+AU  - Arun Jai Prakash
 AU  - Jiun‐Shyan Chen
 AU  - Ertuǧrul Taciroğlu
 TI  - Variationally consistent coupling of non-matching discretizations for large deformation problems
@@ -2604,7 +2692,7 @@ EP  - 478
 DO  - 10.1007/s00466-017-1417-0
 ER  - 
 TY  - JOUR
-AU  - J. Jung
+AU  - Jaedal Jung
 AU  - Ertuǧrul Taciroğlu
 TI  - A divide-alternate-and-conquer approach for localization and shape identification of multiple scatterers in heterogeneous media using dynamic XFEM
 JO  - Inverse Problems and Imaging
@@ -2704,7 +2792,7 @@ DO  - 10.1016/j.soildyn.2016.09.037
 ER  - 
 TY  - CHAP
 AU  - Mehrdad Lotfollahi
-AU  - M.M. Alinia
+AU  - Mohammad Mahdi Alinia
 AU  - Ertuǧrul Taciroğlu
 TI  - On the characteristics of brace-frame interaction in diagonally and X-braced moment resisting frames
 PY  - 2016
@@ -2762,7 +2850,7 @@ DO  - 10.1007/978-3-319-19785-2_17
 ER  - 
 TY  - JOUR
 AU  - Mehrdad Lotfollahi
-AU  - M.M. Alinia
+AU  - Mohammad Mahdi Alinia
 AU  - Ertuǧrul Taciroğlu
 TI  - Criteria for balanced design of diagonally braced moment resisting frames based on hierarchical yielding and failure sequences and their application
 JO  - Engineering Structures
@@ -2790,7 +2878,7 @@ DO  - 10.1016/j.mechmat.2015.09.006
 ER  - 
 TY  - JOUR
 AU  - F. Abazarsa
-AU  - F. Nateghi
+AU  - Fariborz Nateghi
 AU  - S. Farid Ghahari
 AU  - Ertuǧrul Taciroğlu
 TI  - Extended Blind Modal Identification Technique for Nonstationary Excitations and Its Verification and Validation
@@ -2881,7 +2969,7 @@ DO  - 10.1785/0220150041
 ER  - 
 TY  - JOUR
 AU  - Mehrdad Lotfollahi
-AU  - M.M. Alinia
+AU  - Mohammad Mahdi Alinia
 AU  - Ertuǧrul Taciroğlu
 TI  - Validated finite element techniques for quasi-static cyclic response analyses of braced frames at sub-member scales
 JO  - Engineering Structures
@@ -2914,7 +3002,7 @@ EP  - 47
 DO  - 10.1016/j.soildyn.2014.11.004
 ER  - 
 TY  - JOUR
-AU  - J. Jung
+AU  - Jaedal Jung
 AU  - Ertuǧrul Taciroğlu
 TI  - Modeling and identification of an arbitrarily shaped scatterer using dynamic XFEM with cubic splines
 JO  - Computer Methods in Applied Mechanics and Engineering
@@ -2926,7 +3014,7 @@ DO  - 10.1016/j.cma.2014.05.001
 ER  - 
 TY  - JOUR
 AU  - Shadnaz Asgari
-AU  - J.Z. Stafsudd
+AU  - Jing Z. Stafsudd
 AU  - Ralph E. Hudson
 AU  - Kung Yao
 AU  - Ertuǧrul Taciroğlu
@@ -2952,7 +3040,7 @@ DO  - 10.1016/j.soildyn.2013.02.020
 ER  - 
 TY  - JOUR
 AU  - F. Abazarsa
-AU  - F. Nateghi
+AU  - Fariborz Nateghi
 AU  - S. Farid Ghahari
 AU  - Ertuǧrul Taciroğlu
 TI  - Blind Modal Identification of Non‐Classically Damped Systems from Free or Ambient Vibration Records
@@ -2978,7 +3066,7 @@ EP  - n/a
 DO  - 10.1002/stc.1593
 ER  - 
 TY  - JOUR
-AU  - Arun J. Prakash
+AU  - Arun Jai Prakash
 AU  - Ertuǧrul Taciroğlu
 AU  - Keith D. Hjelmstad
 TI  - Computationally efficient multi-time-step method for partitioned time integration of highly nonlinear structural dynamics
@@ -2990,14 +3078,7 @@ EP  - 63
 DO  - 10.1016/j.compstruc.2013.11.013
 ER  - 
 TY  - JOUR
-AU  - Anoosh Shamsabadi
-AU  - Shiyu Xu
-AU  - Ertuǧrul Taciroğlu
-TI  - Development of Improved Guidelines for Seismic Analysis and Design of Earth Retaining Structures
-PY  - 2013
-ER  - 
-TY  - JOUR
-AU  - J. Jung
+AU  - Jaedal Jung
 AU  - Chanseok Jeong
 AU  - Ertuǧrul Taciroğlu
 TI  - Identification of a scatterer embedded in elastic heterogeneous media using dynamic XFEM
@@ -3010,7 +3091,7 @@ DO  - 10.1016/j.cma.2013.03.001
 ER  - 
 TY  - JOUR
 AU  - Payman Khalili-Tehrani
-AU  - Eric Ahlberg
+AU  - Eric R. Ahlberg
 AU  - Chang-Soon Rha
 AU  - Anne Lemnitzer
 AU  - Jonathan P. Stewart
@@ -3054,7 +3135,7 @@ AU  - Serdar Soyöz
 AU  - Ertuǧrul Taciroğlu
 AU  - Kutay Orakçal
 AU  - Robert L. Nigbor
-AU  - Derek Skolnik
+AU  - Derek A. Skolnik
 AU  - Hilmi Luş
 AU  - Erdal Şafak
 TI  - Ambient and Forced Vibration Testing of a Reinforced Concrete Building before and after Its Seismic Retrofitting
@@ -3081,7 +3162,7 @@ ER  -
 TY  - JOUR
 AU  - William Elmer
 AU  - Ertuǧrul Taciroğlu
-AU  - Larry McMichael
+AU  - Larry D. McMichael
 TI  - Dynamic strength increase of plain concrete from high strain rate plasticity with shear dilation
 JO  - International Journal of Impact Engineering
 PY  - 2012
@@ -3106,7 +3187,7 @@ ER  -
 TY  - JOUR
 AU  - F. Abazarsa
 AU  - S. Farid Ghahari
-AU  - F. Nateghi
+AU  - Fariborz Nateghi
 AU  - Ertuǧrul Taciroğlu
 TI  - Response-only modal identification of structures using limited sensors
 JO  - Structural Control and Health Monitoring
@@ -3146,7 +3227,7 @@ ER  -
 TY  - JOUR
 AU  - William Elmer
 AU  - J.S. Chen
-AU  - M Puso
+AU  - M.A. Puso
 AU  - Ertuǧrul Taciroğlu
 TI  - A stable, meshfree, nodal integration method for nearly incompressible solids
 JO  - Finite Elements in Analysis and Design
@@ -3216,7 +3297,7 @@ ER  -
 TY  - JOUR
 AU  - W E Vii
 AU  - Ertuǧrul Taciroğlu
-AU  - Larry McMichael
+AU  - Larry D. McMichael
 TI  - Dynamic Strength Increase of Plain Concrete from High Strain Rate Plasticity with Shear Dilation
 JO  - OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)
 PY  - 2010
@@ -3237,7 +3318,7 @@ ER  -
 TY  - JOUR
 AU  - Anne Lemnitzer
 AU  - Payman Khalili-Tehrani
-AU  - Eric Ahlberg
+AU  - Eric R. Ahlberg
 AU  - Chang-Soon Rha
 AU  - Ertuǧrul Taciroğlu
 AU  - John W. Wallace
@@ -3267,7 +3348,7 @@ ER  -
 TY  - JOUR
 AU  - Ertuǧrul Taciroğlu
 AU  - Amit Acharya
-AU  - A. Namazifard
+AU  - Alireza Namazifard
 AU  - I. D. Parsons
 TI  - Arbitrary Lagrangian–Eulerian methods for analysis of regressing solid domains and interface tracking
 JO  - Computers & Structures
@@ -3280,7 +3361,7 @@ DO  - 10.1016/j.compstruc.2008.12.008
 ER  - 
 TY  - JOUR
 AU  - W. Elmer
-AU  - J.Z. Stafsudd
+AU  - Jing Z. Stafsudd
 AU  - Ertuǧrul Taciroğlu
 TI  - Performance of equilibrium-based system identification algorithms with incomplete state data
 JO  - Engineering Structures
@@ -3331,7 +3412,7 @@ JO  - CaltechAUTHORS (California Institute of Technology)
 PY  - 2008
 ER  - 
 TY  - JOUR
-AU  - C. W. Liu
+AU  - C.W. Liu
 AU  - Ertuǧrul Taciroğlu
 TI  - Shape optimization of piezoelectric devices using an enriched meshfree method
 JO  - International Journal for Numerical Methods in Engineering
@@ -3358,7 +3439,7 @@ TY  - JOUR
 AU  - Jonathan P. Stewart
 AU  - Ertuǧrul Taciroğlu
 AU  - John W. Wallace
-AU  - Eric Ahlberg
+AU  - Eric R. Ahlberg
 AU  - Anne Lemnitzer
 AU  - Chang-Soon Rha
 AU  - Payman Khalili Tehrani
@@ -3385,9 +3466,9 @@ JO  - eScholarship (California Digital Library)
 PY  - 2007
 ER  - 
 TY  - JOUR
-AU  - J.Z. Stafsudd
+AU  - Jing Z. Stafsudd
 AU  - Shadnaz Asgari
-AU  - Robert Hudson
+AU  - R. Hudson
 AU  - K. Yao
 AU  - Ertuǧrul Taciroğlu
 TI  - Localization of short-range acoustic and seismic wideband sources: Algorithms and experiments
@@ -3430,7 +3511,7 @@ ER  -
 TY  - JOUR
 AU  - Ertuǧrul Taciroğlu
 TI  - Analysis, Implementation, and Application of Acoustic and Seismic Arrays
-JO  - Center for Embedded Network Sensing
+JO  - eScholarship (California Digital Library)
 PY  - 2006
 VL  - 32
 IS  - 6
@@ -3438,20 +3519,7 @@ SP  - 929
 EP  - 937
 ER  - 
 TY  - JOUR
-AU  - Christine Goulet
-AU  - Curt B. Haselton
-AU  - Judith Mitrani‐Reiser
-AU  - Jonathan P. Stewart
-AU  - Ertuǧrul Taciroğlu
-AU  - Gregory G. Deierlein
-TI  - EVALUATION OF THE SEISMIC PERFORMANCE OF A CODE-CONFORMING REINFORCED-CONCRETE FRAME BUILDING - PART I: GROUND MOTION SELECTION AND STRUCTURAL COLLAPSE SIMULATION
-PY  - 2006
-VL  - 8
-SP  - 4589
-EP  - 4598
-ER  - 
-TY  - JOUR
-AU  - C. W. Liu
+AU  - C.W. Liu
 AU  - Ertuǧrul Taciroğlu
 TI  - Enriched reproducing kernel particle method for piezoelectric structures with arbitrary interfaces
 JO  - International Journal for Numerical Methods in Engineering
@@ -3463,7 +3531,7 @@ EP  - 1586
 DO  - 10.1002/nme.1684
 ER  - 
 TY  - JOUR
-AU  - Eric Ahlberg
+AU  - Eric R. Ahlberg
 AU  - Chang-Soon Rha
 AU  - Jonathan P. Stewart
 AU  - Robert L. Nigbor
@@ -3549,12 +3617,12 @@ EP  - 6325
 DO  - 10.1016/j.ijsolstr.2005.08.013
 ER  - 
 TY  - JOUR
-AU  - J.Z. Stafsudd
+AU  - Jing Z. Stafsudd
 AU  - Shadnaz Asgari
 AU  - C.E. Chen
 AU  - Aamir Ali
 AU  - Ralph E. Hudson
-AU  - F. Lorenzelli
+AU  - Flavio Lorenzelli
 AU  - K. Yao
 AU  - Ertuǧrul Taciroğlu
 TI  - Localization based on acoustic and seismic array processing
